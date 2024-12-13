@@ -17,6 +17,10 @@ body:
     type: file
     source: specification/implementation/implementation.md
 
+  - name: mets
+    type: file
+    source: specification/implementation/mets.md
+
   - name: requirements.METS.root
     type: requirements
     heading: "Table 2: Root METS root element (element METS root)"
@@ -138,6 +142,10 @@ body:
   - name: premis
     type: file
     source: specification/implementation/premis.md
+
+  - name: glossary
+    type: file
+    source: specification/glossary/glossary.md
 
 appendices:
   - name: mets.examples
