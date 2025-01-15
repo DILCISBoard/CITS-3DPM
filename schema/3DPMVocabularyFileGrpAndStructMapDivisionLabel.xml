@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="DILCISVocabularies.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<Vocabularies xmlns="https://DILCIS.eu/XML/Vocabularies/IP">
+  <Vocabulary Name="VocabularyFileGrpAndStructMapDivisionLabel">
+    <Information>
+      <p>Vocabulary derived from E-ARK</p>
+    </Information>
+    <Entry>
+      <Term lang="en">Authentication Documentation</Term>
+      <Definition>The file group or structural division contains Authentication Documentation</Definition>
+    </Entry>
+    <Entry>
+      <Term lang="en">Other Documentation</Term>
+      <Definition>The file group or structural division contains Other Documentation</Definition>
+    </Entry>
+  </Vocabulary>
+</Vocabularies>
