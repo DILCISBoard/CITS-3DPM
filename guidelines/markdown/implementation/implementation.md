@@ -149,6 +149,7 @@ The Digital Signature is used to ensure that:
 
 This process provides evidential weight for legal proceedings.
 
+
 ## Package Structure
 The CITS 3D Product Model information structure inherits its package structure from the E-ARK Common Specification for Information Packages and is shown in ([Figure 4](#fig4)). It can be seen that additional folders have been added for authentication documentation at root and representation level but otherwise the structure is identical. 
 
@@ -194,6 +195,10 @@ According to the CITS PREMIS: “When using preservation metadata together with 
 It is recommended that users review the CITS PREMIS specification.
 
 In addition, LOTAR states[^13] that “the producer shall integrate Validation properties into the PDI to ensure that the existence of Validation Properties for later automatic Validation processes.  As the Content Objects and Validation Properties related to Content Objects are held at Representation and as CITS 3D PM also requires the inclusion of Digital Signatures with each Representation then CITS 3D PM recommends the use of PREMIS at Representation level.
+
+## Metadata Only IPs
+
+According to LOTAR, in some cases IPs will be required that contain only Metadata and no content information. Such cases could be for example the high level description of a design or project and for the definition of product design structures (product, assembly, sub-assembly, part, component etc). In this case the CSIP allows for metadata only packages. 
 
 [^8]: EN/NAS 9300 Part 011, 6.9
 [^9]: EN/NAS 9300 Part 005, 3.4
